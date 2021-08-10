@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class TaskThree {
 
-    public void run(){
+    public void run() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Tell me what lesson you want to skip and I'll tell you what time it starts:");
 

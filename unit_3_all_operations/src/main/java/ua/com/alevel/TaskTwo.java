@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class TaskTwo {
 
-    public void run(){
+    public void run() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("What's's your favorite quote? Type it in and I'll count the occurrence of each letter:");
 

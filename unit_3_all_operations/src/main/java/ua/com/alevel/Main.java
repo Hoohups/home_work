@@ -3,8 +3,8 @@ package ua.com.alevel;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
         int choice = 1;
         String finalDecision = "";
         while (choice != 0) {
@@ -19,16 +19,20 @@ public class Main {
             switch (choice) {
                 case 0: {
                     System.out.println("A great choice!");
-                }break;
+                }
+                break;
                 case 1: {
                     new TaskOne().run();
-                }break;
+                }
+                break;
                 case 2: {
                     new TaskTwo().run();
-                }break;
+                }
+                break;
                 case 3: {
                     new TaskThree().run();
-                }break;
+                }
+                break;
                 default: {
 
                 }
@@ -42,16 +46,17 @@ public class Main {
                     case "Y": {
                         System.out.println("Cheers!");
                         choice = 0;
-                    }break;
+                    }
+                    break;
                     case "N": {
                         System.out.println("I knew you wouldn't let me go...");
-                    }break;
+                    }
+                    break;
                     default: {
                         System.out.println("What's wrong with you?");
                     }
                 }
             }
-
         }
     }
 }
